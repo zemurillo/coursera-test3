@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-vidth, initial-scale=1">
 	<title>Site Treino</title>
 <style>
 	* {
@@ -48,17 +49,14 @@
         color: black;
         padding: 10px;
       }
-      .left{
-        float: left;
-        width: 33.3%;
-      }
+      
       .clear{
         clear: both;
       }
       .foto{
          width:100%;
          height: 500px;
-         background: url("hubble.jpg") no-repeat center right white;
+         background: url("hubble.jpg") no-repeat center center white;
          top: 100px;
       }
       nav div a {
@@ -117,7 +115,7 @@
 }
 
 /********** Medium devices only **********/
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     background-color:#9400D3 ;
@@ -160,18 +158,36 @@
     width: 100%;
   }
 }
+/* small diveces */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-6 {
+    float: left;
+    background-color:#9400D3 ;
+    color: white;
+            }
+  .col-sm-6 {
+    width: 50%;
+    }
+  }
+@media (min-width: 1200px) {
+  .left {
+    float: left;
+  }
+  .left{
+    width: 50%;
+  }
 }
 </style>
 </head>
 <body>
 	<header><div class="position">There is new version of my site!</div></header>
 	<nav id="top" class="row">
-		<div class="col-lg-2 col-md-4"><a href="#top">Home</a></div>
-    <div class="col-lg-2 col-md-4"><a href="#bibliografia">Bibliografia</a></div>
-    <div class="col-lg-2 col-md-4"><a href="#campo-de-pesquisa">Campo de Pesquisa</a></div>
-		<div class="col-lg-2 col-md-4"><a href="iar.html">IAR</a></div>
-		<div class="col-lg-2 col-md-4"><a href="aero.html">Aero</a></div>
-		<div class="col-lg-2 col-md-4"><a href="#contato">Contato</a></div>
+		<div class="col-lg-2 col-md-4 col-sm-6"><a href="#top">Home</a></div>
+    <div class="col-lg-2 col-md-4 col-sm-6"><a href="#bibliografia">Bibliografia</a></div>
+    <div class="col-lg-2 col-md-4 col-sm-6"><a href="#campo-de-pesquisa">Campo de Pesquisa</a></div>
+		<div class="col-lg-2 col-md-4 col-sm-6"><a href="iar.html">IAR</a></div>
+		<div class="col-lg-2 col-md-4 col-sm-6"><a href="aero.html">Aero</a></div>
+		<div class="col-lg-2 col-md-4 col-sm-6"><a href="#contato">Contato</a></div>
 
 	</nav>
   <h1>Professor José Murillo da Silva Lima</h1>
@@ -186,9 +202,10 @@
     <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae</p>
    <p class="left">Quibusdam provident officia obcaecati accusamus facilis quisquam harum nostrum blanditiis ullam? Quo velit rem, quam, quasi quibusdam placeat. Numquam, unde adipisci quas maiores nostrum accusamus id? Odio aut quisquam nulla. Veniam nostrum dolorum blanditiis officiis, aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id!</p>.
    <p class="left"> Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitaeLorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur libero, a voluptate, quasi rem id! Mollitia nostrum quo in dolorum magnam assumenda, architecto odio expedita atque unde, laudantium velit. Et ipsa veritatis voluptatem repellendus consequatur enim asperiores est accusamus cumque dolore sit quae ipsum quas eveniet omnis, fuga temporibus cum doloremque. Eum ab, error facere vero temporibus dignissimos earum cum. Distinctio fuga sit magni commodi illo doloremque, dolor quisquam dolorem saepe fugiat quas voluptates et omnis a iusto ratione quibusdam molestiae voluptate nulla qui id cumque vitae. ae</p> 
-   <p class="clear foto">Background are fun!</p>
+   <p class="clear foto"></p>
+   <p>Blackground are fun!!!!</p>
   </section>
-  <section id="contato">
+  <section class="clear" id="contato">
     <h2>Contatos</h2>
     <ul>
       <li>Facebook: <a href="https://www.facebook.com/josemurillo.dasilvalima/" target="_blank" title="chamaaa">Clique aqui</a></li>
